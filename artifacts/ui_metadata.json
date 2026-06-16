@@ -1,0 +1,91 @@
+{
+  "segments": [
+    "Consumer",
+    "Corporate",
+    "Self-Employed"
+  ],
+  "regions": [
+    "Canada",
+    "Caribbean",
+    "Central Africa",
+    "Central America",
+    "Central Asia",
+    "Central US",
+    "Eastern Africa",
+    "Eastern Asia",
+    "Eastern Europe",
+    "Eastern US",
+    "North Africa",
+    "Northern Europe",
+    "Oceania",
+    "South America",
+    "Southeastern Asia",
+    "Southern Africa",
+    "Southern Asia",
+    "Southern Europe",
+    "Southern US",
+    "Western Africa",
+    "Western Asia",
+    "Western Europe",
+    "Western US"
+  ],
+  "markets": [
+    "Africa",
+    "Asia Pacific",
+    "Europe",
+    "LATAM",
+    "USCA"
+  ],
+  "categories": [
+    "Body care",
+    "Face care",
+    "Hair care",
+    "Home and Accessories",
+    "Make up"
+  ],
+  "category_subcategory_map": {
+    "Body care": [
+      "Body soaps and washes",
+      "Nail care products",
+      "bath oils, bubbles and soaks",
+      "body moisturizers",
+      "face masks and exfoliators",
+      "hand creams",
+      "vitamins and supplements"
+    ],
+    "Face care": [
+      "face moisturizing products"
+    ],
+    "Hair care": [
+      "hair colors and toners",
+      "shampoos and conditioners"
+    ],
+    "Home and Accessories": [
+      "Accessories",
+      "brushes and applicators",
+      "candles, sprays, diffusers",
+      "fragrances"
+    ],
+    "Make up": [
+      "Eye shadows and pencils",
+      "Lipsticks",
+      "foundations and concealers"
+    ]
+  },
+  "quantity_min": 1,
+  "quantity_max": 20,
+  "sales_min": 2.0,
+  "sales_max": 3940.0,
+  "discount_min": 0.0,
+  "discount_max": 0.85,
+  "median_profit": 7.2,
+  "total_rows": 51290,
+  "best_rf_params": {
+    "max_depth": 20,
+    "min_samples_leaf": 1,
+    "min_samples_split": 5,
+    "n_estimators": 150
+  },
+  "best_rf_cv_score": 0.9937609688096997,
+  "best_rf_test_accuracy": 0.9926886332618444
+}
