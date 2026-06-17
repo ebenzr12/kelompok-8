@@ -308,7 +308,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown(
         f"<p style='color:{COLOR_GRAY_MED}; font-size:0.82rem; line-height:1.6;'>"
-        "<b style='color:{0};'>Model</b><br>Random Forest (tuned)<br><br>"
+        "<b style='color:{0};'>Model</b><br>Decision Tree (tuned)<br><br>"
         "<b style='color:{0};'>Dataset</b><br>Global Skincare &amp; Beauty E-Store</p>".format(COLOR_GRAY_DARK),
         unsafe_allow_html=True,
     )
@@ -575,7 +575,7 @@ def page_comparison():
         fig.update_layout(template=PLOTLY_TEMPLATE, height=320)
         st.plotly_chart(fig, width='stretch')
 
-    st.markdown("#### Feature Importance — Model Utama (Random Forest Tuned)")
+    st.markdown("#### Feature Importance — Model Utama (Decision Tree Tuned)")
     fig = px.bar(
         feature_importance.sort_values("Importance"),
         x="Importance", y="Feature", orientation="h",
